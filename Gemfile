@@ -14,8 +14,11 @@ group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
+  
+  gem 'twitter-bootstrap-rails'
 end
 
+gem 'devise'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
